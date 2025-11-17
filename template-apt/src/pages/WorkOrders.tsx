@@ -767,7 +767,6 @@ export default function WorkOrders() {
     order.estado_ot === 'en_diagnostico_programado'
   );
 
-  // Debug logs
   console.log('🔍 WorkOrders Render:', {
     userRol: user?.rol,
     activeTab,

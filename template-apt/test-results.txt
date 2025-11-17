@@ -1,0 +1,3971 @@
+﻿
+> vite-react-typescript-starter@0.0.0 test:run
+> vitest run
+
+
+ RUN  v4.0.10 C:/Users/AroVS/OneDrive/Escritorio/proyecto APT/template-apt
+
+ Ô£ô src/components/Card.test.tsx (3 tests) 76ms
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Renderizado de campos del formulario > deber├¡a mostrar todos los campos del formulario
+­ƒöì Loading cargos - hasEnv: true
+Ô£à Cargos from Supabase: undefined
+ÔÜá´©Å Supabase vac├¡o, usando cargos demo
+
+node.exe : stderr | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Renderizado de 
+campos del formulario > deber├¡a mostrar todos los campos del formulario
+En línea: 1 Carácter: 1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (stderr | src/pa... del formulario:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ÔÜá´©Å React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in 
+v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see 
+https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+ÔÜá´©Å React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use 
+the `v7_relativeSplatPath` future flag to opt-in early. For more information, see 
+https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+Warning: An update to EmployeeRegister inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://reactjs.org/link/wrap-tests-with-act
+    at EmployeeRegister (C:/Users/AroVS/OneDrive/Escritorio/proyecto 
+APT/template-apt/src/pages/EmployeeRegister.tsx:14:67)
+    at Router (C:\Users\AroVS\OneDrive\Escritorio\proyecto 
+APT\template-apt\node_modules\react-router\dist\umd\react-router.development.js:1207:17)
+    at BrowserRouter (C:\Users\AroVS\OneDrive\Escritorio\proyecto 
+APT\template-apt\node_modules\react-router-dom\dist\umd\react-router-dom.development.js:695:7)
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Renderizado de campos del formulario > deber├¡a mostrar el t├¡tulo del formulario
+­ƒöì Loading cargos - hasEnv: true
+
+stderr | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Renderizado de campos del 
+formulario > deber├¡a mostrar el t├¡tulo del formulario
+Warning: An update to EmployeeRegister inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://reactjs.org/link/wrap-tests-with-act
+    at EmployeeRegister (C:/Users/AroVS/OneDrive/Escritorio/proyecto 
+APT/template-apt/src/pages/EmployeeRegister.tsx:14:67)
+    at Router (C:\Users\AroVS\OneDrive\Escritorio\proyecto 
+APT\template-apt\node_modules\react-router\dist\umd\react-router.development.js:1207:17)
+    at BrowserRouter (C:\Users\AroVS\OneDrive\Escritorio\proyecto 
+APT\template-apt\node_modules\react-router-dom\dist\umd\react-router-dom.development.js:695:7)
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Renderizado de campos del formulario > deber├¡a mostrar el t├¡tulo del formulario
+Ô£à Cargos from Supabase: undefined
+ÔÜá´©Å Supabase vac├¡o, usando cargos demo
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar datos ingresados en los campos > deber├¡a mostrar el RUT cuando se ingresa
+­ƒöì Loading cargos - hasEnv: true
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar datos ingresados en los campos > deber├¡a mostrar el RUT cuando se ingresa
+Ô£à Cargos from Supabase: undefined
+ÔÜá´©Å Supabase vac├¡o, usando cargos demo
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar datos ingresados en los campos > deber├¡a mostrar el nombre cuando se ingresa
+­ƒöì Loading cargos - hasEnv: true
+
+stderr | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar datos ingresados 
+en los campos > deber├¡a mostrar el nombre cuando se ingresa
+Warning: An update to EmployeeRegister inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://reactjs.org/link/wrap-tests-with-act
+    at EmployeeRegister (C:/Users/AroVS/OneDrive/Escritorio/proyecto 
+APT/template-apt/src/pages/EmployeeRegister.tsx:14:67)
+    at Router (C:\Users\AroVS\OneDrive\Escritorio\proyecto 
+APT\template-apt\node_modules\react-router\dist\umd\react-router.development.js:1207:17)
+    at BrowserRouter (C:\Users\AroVS\OneDrive\Escritorio\proyecto 
+APT\template-apt\node_modules\react-router-dom\dist\umd\react-router-dom.development.js:695:7)
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar datos ingresados en los campos > deber├¡a mostrar el nombre cuando se ingresa
+Ô£à Cargos from Supabase: undefined
+ÔÜá´©Å Supabase vac├¡o, usando cargos demo
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar datos ingresados en los campos > deber├¡a mostrar el apellido paterno cuando se ingresa
+­ƒöì Loading cargos - hasEnv: true
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar datos ingresados en los campos > deber├¡a mostrar el apellido paterno cuando se ingresa
+Ô£à Cargos from Supabase: undefined
+ÔÜá´©Å Supabase vac├¡o, usando cargos demo
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar datos ingresados en los campos > deber├¡a mostrar el apellido materno cuando se ingresa
+­ƒöì Loading cargos - hasEnv: true
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar datos ingresados en los campos > deber├¡a mostrar el apellido materno cuando se ingresa
+Ô£à Cargos from Supabase: undefined
+ÔÜá´©Å Supabase vac├¡o, usando cargos demo
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar datos ingresados en los campos > deber├¡a mostrar el email cuando se ingresa
+­ƒöì Loading cargos - hasEnv: true
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar datos ingresados en los campos > deber├¡a mostrar el email cuando se ingresa
+Ô£à Cargos from Supabase: undefined
+ÔÜá´©Å Supabase vac├¡o, usando cargos demo
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar datos ingresados en los campos > deber├¡a mostrar el tel├®fono 1 cuando se ingresa
+­ƒöì Loading cargos - hasEnv: true
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar datos ingresados en los campos > deber├¡a mostrar el tel├®fono 1 cuando se ingresa
+Ô£à Cargos from Supabase: undefined
+ÔÜá´©Å Supabase vac├¡o, usando cargos demo
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar datos ingresados en los campos > deber├¡a mostrar el tel├®fono 2 cuando se ingresa
+­ƒöì Loading cargos - hasEnv: true
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar datos ingresados en los campos > deber├¡a mostrar el tel├®fono 2 cuando se ingresa
+Ô£à Cargos from Supabase: undefined
+ÔÜá´©Å Supabase vac├¡o, usando cargos demo
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar datos ingresados en los campos > deber├¡a mostrar la contrase├▒a cuando se ingresa
+­ƒöì Loading cargos - hasEnv: true
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar datos ingresados en los campos > deber├¡a mostrar la contrase├▒a cuando se ingresa
+Ô£à Cargos from Supabase: undefined
+ÔÜá´©Å Supabase vac├¡o, usando cargos demo
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar datos ingresados en los campos > deber├¡a mostrar la confirmaci├│n de contrase├▒a cuando se ingresa
+­ƒöì Loading cargos - hasEnv: true
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar datos ingresados en los campos > deber├¡a mostrar la confirmaci├│n de contrase├▒a cuando se ingresa
+Ô£à Cargos from Supabase: undefined
+ÔÜá´©Å Supabase vac├¡o, usando cargos demo
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar datos ingresados en los campos > deber├¡a mostrar la fecha de nacimiento cuando se selecciona
+­ƒöì Loading cargos - hasEnv: true
+
+stderr | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar datos ingresados 
+en los campos > deber├¡a mostrar la fecha de nacimiento cuando se selecciona
+Warning: An update to EmployeeRegister inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://reactjs.org/link/wrap-tests-with-act
+    at EmployeeRegister (C:/Users/AroVS/OneDrive/Escritorio/proyecto 
+APT/template-apt/src/pages/EmployeeRegister.tsx:14:67)
+    at Router (C:\Users\AroVS\OneDrive\Escritorio\proyecto 
+APT\template-apt\node_modules\react-router\dist\umd\react-router.development.js:1207:17)
+    at BrowserRouter (C:\Users\AroVS\OneDrive\Escritorio\proyecto 
+APT\template-apt\node_modules\react-router-dom\dist\umd\react-router-dom.development.js:695:7)
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar datos ingresados en los campos > deber├¡a mostrar la fecha de nacimiento cuando se selecciona
+Ô£à Cargos from Supabase: undefined
+ÔÜá´©Å Supabase vac├¡o, usando cargos demo
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar opciones de cargo > deber├¡a mostrar las opciones de cargo disponibles
+­ƒöì Loading cargos - hasEnv: true
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar opciones de cargo > deber├¡a mostrar las opciones de cargo disponibles
+Ô£à Cargos from Supabase: undefined
+ÔÜá´©Å Supabase vac├¡o, usando cargos demo
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar opciones de cargo > deber├¡a mostrar el cargo seleccionado
+­ƒöì Loading cargos - hasEnv: true
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar opciones de cargo > deber├¡a mostrar el cargo seleccionado
+Ô£à Cargos from Supabase: undefined
+ÔÜá´©Å Supabase vac├¡o, usando cargos demo
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar errores de validaci├│n > deber├¡a mostrar error cuando el RUT est├í vac├¡o al enviar
+­ƒöì Loading cargos - hasEnv: true
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar errores de validaci├│n > deber├¡a mostrar error cuando el RUT est├í vac├¡o al enviar
+Ô£à Cargos from Supabase: undefined
+ÔÜá´©Å Supabase vac├¡o, usando cargos demo
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar errores de validaci├│n > deber├¡a mostrar error cuando el nombre est├í vac├¡o al enviar
+­ƒöì Loading cargos - hasEnv: true
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar errores de validaci├│n > deber├¡a mostrar error cuando el nombre est├í vac├¡o al enviar
+Ô£à Cargos from Supabase: undefined
+ÔÜá´©Å Supabase vac├¡o, usando cargos demo
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar errores de validaci├│n > deber├¡a mostrar error cuando el email es inv├ílido
+­ƒöì Loading cargos - hasEnv: true
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar errores de validaci├│n > deber├¡a mostrar error cuando el email es inv├ílido
+Ô£à Cargos from Supabase: undefined
+ÔÜá´©Å Supabase vac├¡o, usando cargos demo
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar errores de validaci├│n > deber├¡a mostrar error cuando las contrase├▒as no coinciden
+­ƒöì Loading cargos - hasEnv: true
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar errores de validaci├│n > deber├¡a mostrar error cuando las contrase├▒as no coinciden
+Ô£à Cargos from Supabase: undefined
+ÔÜá´©Å Supabase vac├¡o, usando cargos demo
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar datos completos del formulario > deber├¡a mantener todos los datos ingresados en el formulario
+­ƒöì Loading cargos - hasEnv: true
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar datos completos del formulario > deber├¡a mantener todos los datos ingresados en el formulario
+Ô£à Cargos from Supabase: undefined
+ÔÜá´©Å Supabase vac├¡o, usando cargos demo
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Botones del formulario > deber├¡a mostrar el bot├│n de cancelar
+­ƒöì Loading cargos - hasEnv: true
+
+stderr | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Botones del formulario > 
+deber├¡a mostrar el bot├│n de cancelar
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Botones del formulario > deber├¡a mostrar el bot├│n de cancelar
+Warning: An update to EmployeeRegister inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://reactjs.org/link/wrap-tests-with-act
+    at EmployeeRegister (C:/Users/AroVS/OneDrive/Escritorio/proyecto 
+APT/template-apt/src/pages/EmployeeRegister.tsx:14:67)
+    at Router (C:\Users\AroVS\OneDrive\Escritorio\proyecto 
+APT\template-apt\node_modules\react-router\dist\umd\react-router.development.js:1207:17)
+    at BrowserRouter (C:\Users\AroVS\OneDrive\Escritorio\proyecto 
+APT\template-apt\node_modules\react-router-dom\dist\umd\react-router-dom.development.js:695:7)
+
+Ô£à Cargos from Supabase: undefined
+ÔÜá´©Å Supabase vac├¡o, usando cargos demo
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Botones del formulario > deber├¡a mostrar el bot├│n de registrarse
+­ƒöì Loading cargos - hasEnv: true
+stderr | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Botones del formulario > 
+deber├¡a mostrar el bot├│n de registrarse
+Warning: An update to EmployeeRegister inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://reactjs.org/link/wrap-tests-with-act
+    at EmployeeRegister (C:/Users/AroVS/OneDrive/Escritorio/proyecto 
+APT/template-apt/src/pages/EmployeeRegister.tsx:14:67)
+    at Router (C:\Users\AroVS\OneDrive\Escritorio\proyecto 
+APT\template-apt\node_modules\react-router\dist\umd\react-router.development.js:1207:17)
+    at BrowserRouter (C:\Users\AroVS\OneDrive\Escritorio\proyecto 
+APT\template-apt\node_modules\react-router-dom\dist\umd\react-router-dom.development.js:695:7)
+
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Botones del formulario > deber├¡a mostrar el bot├│n de registrarse
+Ô£à Cargos from Supabase: undefined
+ÔÜá´©Å Supabase vac├¡o, usando cargos demo
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Botones del formulario > deber├¡a mostrar "Registrando..." cuando est├í cargando
+­ƒöì Loading cargos - hasEnv: true
+
+stdout | src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Botones del formulario > deber├¡a mostrar "Registrando..." cuando est├í cargando
+Ô£à Cargos from Supabase: undefined
+ÔÜá´©Å Supabase vac├¡o, usando cargos demo
+
+ ÔØ» src/pages/EmployeeRegister.test.tsx (22 tests | 8 failed) 12399ms
+       ├ù deber├¡a mostrar todos los campos del formulario 88ms
+       Ô£ô deber├¡a mostrar el t├¡tulo del formulario 17ms
+       Ô£ô deber├¡a mostrar el RUT cuando se ingresa  382ms
+       ├ù deber├¡a mostrar el nombre cuando se ingresa 28ms
+       Ô£ô deber├¡a mostrar el apellido paterno cuando se ingresa 137ms
+       Ô£ô deber├¡a mostrar el apellido materno cuando se ingresa 171ms
+       Ô£ô deber├¡a mostrar el email cuando se ingresa  377ms
+       Ô£ô deber├¡a mostrar el tel├®fono 1 cuando se ingresa 232ms
+       Ô£ô deber├¡a mostrar el tel├®fono 2 cuando se ingresa 253ms
+       Ô£ô deber├¡a mostrar la contrase├▒a cuando se ingresa 255ms
+       Ô£ô deber├¡a mostrar la confirmaci├│n de contrase├▒a cuando se ingresa 243ms
+       ├ù deber├¡a mostrar la fecha de nacimiento cuando se selecciona 881ms
+       ├ù deber├¡a mostrar las opciones de cargo disponibles 1034ms
+       ├ù deber├¡a mostrar el cargo seleccionado 1019ms
+       Ô£ô deber├¡a mostrar error cuando el RUT est├í vac├¡o al enviar 126ms
+       Ô£ô deber├¡a mostrar error cuando el nombre est├í vac├¡o al enviar 112ms
+       ├ù deber├¡a mostrar error cuando el email es inv├ílido 1346ms
+       Ô£ô deber├¡a mostrar error cuando las contrase├▒as no coinciden  500ms
+       ├ù deber├¡a mantener todos los datos ingresados en el formulario 2760ms
+       Ô£ô deber├¡a mostrar el bot├│n de cancelar 67ms
+       Ô£ô deber├¡a mostrar el bot├│n de registrarse 59ms
+       ├ù deber├¡a mostrar "Registrando..." cuando est├í cargando 2305ms
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ» Failed Tests 8 ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»
+
+ FAIL  src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Renderizado de campos del 
+formulario > deber├¡a mostrar todos los campos del formulario
+TestingLibraryElementError: Found multiple elements with the placeholder text of: /Juan/i
+
+Here are the matching elements:
+
+Ignored nodes: comments, script, style
+[36m<input[39m
+  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 border-gray-300"[39m
+  [33mplaceholder[39m=[32m"Juan"[39m
+  [33mtype[39m=[32m"text"[39m
+  [33mvalue[39m=[32m""[39m
+[36m/>[39m
+
+Ignored nodes: comments, script, style
+[36m<input[39m
+  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 border-gray-300"[39m
+  [33mplaceholder[39m=[32m"juan.perez@ejemplo.com"[39m
+  [33mtype[39m=[32m"email"[39m
+  [33mvalue[39m=[32m""[39m
+[36m/>[39m
+
+(If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or 
+`findAllByText`)).
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center 
+py-12 px-4 sm:px-6 lg:px-8"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"max-w-4xl w-full bg-white rounded-xl shadow-2xl overflow-hidden"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"bg-gradient-to-r from-blue-600 to-indigo-600 px-8 py-6"[39m
+        [36m>[39m
+          [36m<h2[39m
+            [33mclass[39m=[32m"text-3xl font-bold text-white text-center"[39m
+          [36m>[39m
+            [0m­ƒôØ Registro de Empleado[0m
+          [36m</h2>[39m
+          [36m<p[39m
+            [33mclass[39m=[32m"text-blue-100 text-center mt-2"[39m
+          [36m>[39m
+            [0mCompleta el siguiente formulario para registrarte como empleado[0m
+          [36m</p>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"p-8"[39m
+        [36m>[39m
+          [36m<form[39m
+            [33mclass[39m=[32m"space-y-6"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mRUT *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"12.345.678-9"[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mCargo *[0m
+                [36m</label>[39m
+                [36m<select[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                [36m>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m>[39m
+                    [0mSeleccionar cargo[0m
+                  [36m</option>[39m
+                [36m</select>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-3 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mNombre *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"Juan"[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mApellido Paterno *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"P├®rez"[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mApellido Materno *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 
+focus:ring-blue-500"[39m
+                  [33mplaceholder[39m=[32m"Gonz├ílez"[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mFecha de Nacimiento *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mtype[39m=[32m"date"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mEmail *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"juan.perez@ejemplo.com"[39m
+                  [33mtype[39m=[32m"email"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mTel├®fono 1 *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"+56912345678"[39m
+                  [33mtype[39m=[32m"tel"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mTel├®fono 2[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 
+focus:ring-blue-500"[39m
+                  [33mplaceholder[39m=[32m"+56987654321"[39m
+                  [33mtype[39m=[32m"tel"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mContrase├▒a *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"M├¡nimo 6 caracteres"[39m
+                  [33mtype[39m=[32m"password"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mConfirmar Contrase├▒a *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"Repite tu contrase├▒a"[39m
+                  [33mtype[39m=[32m"password"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"flex justify-end gap-4 pt-6"[39m
+            [36m>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"px-6 py-3 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 
+transition-colors"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mCancelar[0m
+              [36m</button>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 
+disabled:opacity-50 transition-colors"[39m
+                [33mtype[39m=[32m"submit"[39m
+              [36m>[39m
+                [0mRegistrarse[0m
+              [36m</button>[39m
+            [36m</div>[39m
+          [36m</form>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+ ÔØ» Object.getElementError node_modules/@testing-library/dom/dist/config.js:37:19
+ ÔØ» getElementError node_modules/@testing-library/dom/dist/query-helpers.js:20:35
+ ÔØ» getMultipleElementsFoundError node_modules/@testing-library/dom/dist/query-helpers.js:23:10
+ ÔØ» node_modules/@testing-library/dom/dist/query-helpers.js:55:13
+ ÔØ» node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ÔØ» src/pages/EmployeeRegister.test.tsx:60:21
+     58|       // Verificar que todos los campos est├ín presentes usando placehoÔÇª
+     59|       expect(screen.getByPlaceholderText(/12.345.678-9/i)).toBeInTheDoÔÇª
+     60|       expect(screen.getByPlaceholderText(/Juan/i)).toBeInTheDocument();
+       |                     ^
+     61|       expect(screen.getByPlaceholderText(/P├®rez/i)).toBeInTheDocument(ÔÇª
+     62|       expect(screen.getByPlaceholderText(/Gonz├ílez/i)).toBeInTheDocumeÔÇª
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[1/8]ÔÄ»
+
+ FAIL  src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar datos ingresados en 
+los campos > deber├¡a mostrar el nombre cuando se ingresa
+TestingLibraryElementError: Found multiple elements with the placeholder text of: /Juan/i
+
+Here are the matching elements:
+
+Ignored nodes: comments, script, style
+[36m<input[39m
+  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 border-gray-300"[39m
+  [33mplaceholder[39m=[32m"Juan"[39m
+  [33mtype[39m=[32m"text"[39m
+  [33mvalue[39m=[32m""[39m
+[36m/>[39m
+
+Ignored nodes: comments, script, style
+[36m<input[39m
+  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 border-gray-300"[39m
+  [33mplaceholder[39m=[32m"juan.perez@ejemplo.com"[39m
+  [33mtype[39m=[32m"email"[39m
+  [33mvalue[39m=[32m""[39m
+[36m/>[39m
+
+(If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or 
+`findAllByText`)).
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center 
+py-12 px-4 sm:px-6 lg:px-8"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"max-w-4xl w-full bg-white rounded-xl shadow-2xl overflow-hidden"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"bg-gradient-to-r from-blue-600 to-indigo-600 px-8 py-6"[39m
+        [36m>[39m
+          [36m<h2[39m
+            [33mclass[39m=[32m"text-3xl font-bold text-white text-center"[39m
+          [36m>[39m
+            [0m­ƒôØ Registro de Empleado[0m
+          [36m</h2>[39m
+          [36m<p[39m
+            [33mclass[39m=[32m"text-blue-100 text-center mt-2"[39m
+          [36m>[39m
+            [0mCompleta el siguiente formulario para registrarte como empleado[0m
+          [36m</p>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"p-8"[39m
+        [36m>[39m
+          [36m<form[39m
+            [33mclass[39m=[32m"space-y-6"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mRUT *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"12.345.678-9"[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mCargo *[0m
+                [36m</label>[39m
+                [36m<select[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                [36m>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m>[39m
+                    [0mSeleccionar cargo[0m
+                  [36m</option>[39m
+                [36m</select>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-3 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mNombre *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"Juan"[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mApellido Paterno *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"P├®rez"[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mApellido Materno *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 
+focus:ring-blue-500"[39m
+                  [33mplaceholder[39m=[32m"Gonz├ílez"[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mFecha de Nacimiento *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mtype[39m=[32m"date"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mEmail *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"juan.perez@ejemplo.com"[39m
+                  [33mtype[39m=[32m"email"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mTel├®fono 1 *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"+56912345678"[39m
+                  [33mtype[39m=[32m"tel"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mTel├®fono 2[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 
+focus:ring-blue-500"[39m
+                  [33mplaceholder[39m=[32m"+56987654321"[39m
+                  [33mtype[39m=[32m"tel"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mContrase├▒a *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"M├¡nimo 6 caracteres"[39m
+                  [33mtype[39m=[32m"password"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mConfirmar Contrase├▒a *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"Repite tu contrase├▒a"[39m
+                  [33mtype[39m=[32m"password"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"flex justify-end gap-4 pt-6"[39m
+            [36m>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"px-6 py-3 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 
+transition-colors"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mCancelar[0m
+              [36m</button>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 
+disabled:opacity-50 transition-colors"[39m
+                [33mtype[39m=[32m"submit"[39m
+              [36m>[39m
+                [0mRegistrarse[0m
+              [36m</button>[39m
+            [36m</div>[39m
+          [36m</form>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+ ÔØ» Object.getElementError node_modules/@testing-library/dom/dist/config.js:37:19
+ ÔØ» getElementError node_modules/@testing-library/dom/dist/query-helpers.js:20:35
+ ÔØ» getMultipleElementsFoundError node_modules/@testing-library/dom/dist/query-helpers.js:23:10
+ ÔØ» node_modules/@testing-library/dom/dist/query-helpers.js:55:13
+ ÔØ» node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ÔØ» src/pages/EmployeeRegister.test.tsx:93:34
+     91|       renderWithRouter();
+     92| 
+     93|       const nombreInput = screen.getByPlaceholderText(/Juan/i);
+       |                                  ^
+     94|       await user.type(nombreInput, 'Juan');
+     95| 
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[2/8]ÔÄ»
+
+ FAIL  src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar datos ingresados en 
+los campos > deber├¡a mostrar la fecha de nacimiento cuando se selecciona
+TestingLibraryElementError: Unable to find an accessible element with the role "textbox" and name `/Fecha de 
+Nacimiento/i`
+
+Here are the accessible roles:
+
+  heading:
+
+  Name "­ƒôØ Registro de Empleado":
+  [36m<h2[39m
+    [33mclass[39m=[32m"text-3xl font-bold text-white text-center"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  paragraph:
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"text-blue-100 text-center mt-2"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  textbox:
+
+  Name "":
+  [36m<input[39m
+    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 border-gray-300"[39m
+    [33mplaceholder[39m=[32m"12.345.678-9"[39m
+    [33mtype[39m=[32m"text"[39m
+    [33mvalue[39m=[32m""[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<input[39m
+    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 border-gray-300"[39m
+    [33mplaceholder[39m=[32m"Juan"[39m
+    [33mtype[39m=[32m"text"[39m
+    [33mvalue[39m=[32m""[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<input[39m
+    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 border-gray-300"[39m
+    [33mplaceholder[39m=[32m"P├®rez"[39m
+    [33mtype[39m=[32m"text"[39m
+    [33mvalue[39m=[32m""[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<input[39m
+    [33mclass[39m=[32m"w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"[39m
+    [33mplaceholder[39m=[32m"Gonz├ílez"[39m
+    [33mtype[39m=[32m"text"[39m
+    [33mvalue[39m=[32m""[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<input[39m
+    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 border-gray-300"[39m
+    [33mplaceholder[39m=[32m"juan.perez@ejemplo.com"[39m
+    [33mtype[39m=[32m"email"[39m
+    [33mvalue[39m=[32m""[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<input[39m
+    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 border-gray-300"[39m
+    [33mplaceholder[39m=[32m"+56912345678"[39m
+    [33mtype[39m=[32m"tel"[39m
+    [33mvalue[39m=[32m""[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<input[39m
+    [33mclass[39m=[32m"w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"[39m
+    [33mplaceholder[39m=[32m"+56987654321"[39m
+    [33mtype[39m=[32m"tel"[39m
+    [33mvalue[39m=[32m""[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  combobox:
+
+  Name "":
+  [36m<select[39m
+    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 border-gray-300"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  option:
+
+  Name "Seleccionar cargo":
+  [36m<option[39m
+    [33mvalue[39m=[32m""[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  button:
+
+  Name "Cancelar":
+  [36m<button[39m
+    [33mclass[39m=[32m"px-6 py-3 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 
+transition-colors"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "Registrarse":
+  [36m<button[39m
+    [33mclass[39m=[32m"px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50 
+transition-colors"[39m
+    [33mtype[39m=[32m"submit"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center 
+py-12 px-4 sm:px-6 lg:px-8"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"max-w-4xl w-full bg-white rounded-xl shadow-2xl overflow-hidden"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"bg-gradient-to-r from-blue-600 to-indigo-600 px-8 py-6"[39m
+        [36m>[39m
+          [36m<h2[39m
+            [33mclass[39m=[32m"text-3xl font-bold text-white text-center"[39m
+          [36m>[39m
+            [0m­ƒôØ Registro de Empleado[0m
+          [36m</h2>[39m
+          [36m<p[39m
+            [33mclass[39m=[32m"text-blue-100 text-center mt-2"[39m
+          [36m>[39m
+            [0mCompleta el siguiente formulario para registrarte como empleado[0m
+          [36m</p>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"p-8"[39m
+        [36m>[39m
+          [36m<form[39m
+            [33mclass[39m=[32m"space-y-6"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mRUT *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"12.345.678-9"[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mCargo *[0m
+                [36m</label>[39m
+                [36m<select[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                [36m>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m>[39m
+                    [0mSeleccionar cargo[0m
+                  [36m</option>[39m
+                [36m</select>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-3 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mNombre *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"Juan"[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mApellido Paterno *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"P├®rez"[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mApellido Materno *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 
+focus:ring-blue-500"[39m
+                  [33mplaceholder[39m=[32m"Gonz├ílez"[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mFecha de Nacimiento *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mtype[39m=[32m"date"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mEmail *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"juan.perez@ejemplo.com"[39m
+                  [33mtype[39m=[32m"email"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mTel├®fono 1 *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"+56912345678"[39m
+                  [33mtype[39m=[32m"tel"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mTel├®fono 2[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 
+focus:ring-blue-500"[39m
+                  [33mplaceholder[39m=[32m"+56987654321"[39m
+                  [33mtype[39m=[32m"tel"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mContrase├▒a *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"M├¡nimo 6 caracteres"[39m
+                  [33mtype[39m=[32m"password"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mConfirmar Contrase├▒a *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"Repite tu contrase├▒a"[39m
+                  [33mtype[39m=[32m"password"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"flex justify-end gap-4 pt-6"[39m
+            [36m>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"px-6 py-3 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 
+transition-colors"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mCancelar[0m
+              [36m</button>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 
+disabled:opacity-50 transition-colors"[39m
+                [33mtype[39m=[32m"submit"[39m
+              [36m>[39m
+                [0mRegistrarse[0m
+              [36m</button>[39m
+            [36m</div>[39m
+          [36m</form>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+ ÔØ» Object.getElementError node_modules/@testing-library/dom/dist/config.js:37:19
+ ÔØ» node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ÔØ» node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ÔØ» node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ÔØ» src/pages/EmployeeRegister.test.tsx:173:33
+    171|       renderWithRouter();
+    172| 
+    173|       const fechaInput = screen.getByRole('textbox', { name: /Fecha deÔÇª
+       |                                 ^
+    174|                         screen.getAllByRole('textbox').find(input => iÔÇª
+    175|                         document.querySelector('input[type="date"]');
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[3/8]ÔÄ»
+
+ FAIL  src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar opciones de cargo > 
+deber├¡a mostrar las opciones de cargo disponibles
+TestingLibraryElementError: Unable to find role="combobox" and name `/Cargo/i`
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center 
+py-12 px-4 sm:px-6 lg:px-8"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"max-w-4xl w-full bg-white rounded-xl shadow-2xl overflow-hidden"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"bg-gradient-to-r from-blue-600 to-indigo-600 px-8 py-6"[39m
+        [36m>[39m
+          [36m<h2[39m
+            [33mclass[39m=[32m"text-3xl font-bold text-white text-center"[39m
+          [36m>[39m
+            [0m­ƒôØ Registro de Empleado[0m
+          [36m</h2>[39m
+          [36m<p[39m
+            [33mclass[39m=[32m"text-blue-100 text-center mt-2"[39m
+          [36m>[39m
+            [0mCompleta el siguiente formulario para registrarte como empleado[0m
+          [36m</p>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"p-8"[39m
+        [36m>[39m
+          [36m<form[39m
+            [33mclass[39m=[32m"space-y-6"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mRUT *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"12.345.678-9"[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mCargo *[0m
+                [36m</label>[39m
+                [36m<select[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                [36m>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m>[39m
+                    [0mSeleccionar cargo[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-1"[39m
+                  [36m>[39m
+                    [0mJefe de Taller[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-2"[39m
+                  [36m>[39m
+                    [0mCoordinador[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-3"[39m
+                  [36m>[39m
+                    [0mSupervisor[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-4"[39m
+                  [36m>[39m
+                    [0mMec├ínico[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-5"[39m
+                  [36m>[39m
+                    [0mGuardia[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-6"[39m
+                  [36m>[39m
+                    [0mAsistente de Repuestos[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-7"[39m
+                  [36m>[39m
+                    [0mChofer[0m
+                  [36m</option>[39m
+                [36m</select>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-3 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mNombre *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"Juan"[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mApellido Paterno *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"P├®rez"[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mApellido Materno *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 
+focus:ring-blue-500"[39m
+                  [33mplaceholder[39m=[32m"Gonz├ílez"[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mFecha de Nacimiento *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mtype[39m=[32m"date"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mEmail *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"juan.perez@ejemplo.com"[39m
+                  [33mtype[39m=[32m"email"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mTel├®fono 1 *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"+56912345678"[39m
+                  [33mtype[39m=[32m"tel"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mTel├®fono 2[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 
+focus:ring-blue-500"[39m
+                  [33mplaceholder[39m=[32m"+56987654321"[39m
+                  [33mtype[39m=[32m"tel"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mContrase├▒a *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"M├¡nimo 6 caracteres"[39m
+                  [33mtype[39m=[32m"password"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mConfirmar Contrase├▒a *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"Repite tu contrase├▒a"[39m
+                  [33mtype[39m=[32m"password"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"flex justify-end gap-4 pt-6"[39m
+            [36m>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"px-6 py-3 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 
+transition-colors"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mCancelar[0m
+              [36m</button>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 
+disabled:opacity-50 transition-colors"[39m
+                [33mtype[39m=[32m"submit"[39m
+              [36m>[39m
+                [0mRegistrarse[0m
+              [36m</button>[39m
+            [36m</div>[39m
+          [36m</form>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+
+Ignored nodes: comments, script, style
+[36m<html>[39m
+  [36m<head />[39m
+  [36m<body>[39m
+    [36m<div>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center 
+justify-center py-12 px-4 sm:px-6 lg:px-8"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"max-w-4xl w-full bg-white rounded-xl shadow-2xl overflow-hidden"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-gradient-to-r from-blue-600 to-indigo-600 px-8 py-6"[39m
+          [36m>[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"text-3xl font-bold text-white text-center"[39m
+            [36m>[39m
+              [0m­ƒôØ Registro de Empleado[0m
+            [36m</h2>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"text-blue-100 text-center mt-2"[39m
+            [36m>[39m
+              [0mCompleta el siguiente formulario para registrarte como empleado[0m
+            [36m</p>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"p-8"[39m
+          [36m>[39m
+            [36m<form[39m
+              [33mclass[39m=[32m"space-y-6"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+              [36m>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mRUT *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"12.345.678-9"[39m
+                    [33mtype[39m=[32m"text"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mCargo *[0m
+                  [36m</label>[39m
+                  [36m<select[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [36m>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m""[39m
+                    [36m>[39m
+                      [0mSeleccionar cargo[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-1"[39m
+                    [36m>[39m
+                      [0mJefe de Taller[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-2"[39m
+                    [36m>[39m
+                      [0mCoordinador[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-3"[39m
+                    [36m>[39m
+                      [0mSupervisor[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-4"[39m
+                    [36m>[39m
+                      [0mMec├ínico[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-5"[39m
+                    [36m>[39m
+                      [0mGuardia[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-6"[39m
+                    [36m>[39m
+                      [0mAsistente de Repuestos[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-7"[39m
+                    [36m>[39m
+                      [0mChofer[0m
+                    [36m</option>[39m
+                  [36m</select>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-3 gap-6"[39m
+              [36m>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mNombre *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"Juan"[39m
+                    [33mtype[39m=[32m"text"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mApellido Paterno *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"P├®rez"[39m
+                    [33mtype[39m=[32m"text"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mApellido Materno *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 
+focus:ring-blue-500"[39m
+                    [33mplaceholder[39m=[32m"Gonz├ílez"[39m
+                    [33mtype[39m=[32m"text"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+              [36m>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mFecha de Nacimiento *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mtype[39m=[32m"date"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mEmail *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"juan.perez@ejemplo.com"[39m
+                    [33mtype[39m=[32m"email"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+              [36m>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mTel├®fono 1 *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"+56912345678"[39m
+                    [33mtype[39m=[32m"tel"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mTel├®fono 2[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 
+focus:ring-blue-500"[39m
+                    [33mplaceholder[39m=[32m"+56987654321"[39m
+                    [33mtype[39m=[32m"tel"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+              [36m>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mContrase├▒a *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"M├¡nimo 6 caracteres"[39m
+                    [33mtype[39m=[32m"password"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mConfirmar Contrase├▒a *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"Repite tu contrase├▒a"[39m
+                    [33mtype[39m=[32m"password"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"flex justify-end gap-4 pt-6"[39m
+              [36m>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"px-6 py-3 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 
+transition-colors"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mCancelar[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 
+disabled:opacity-50 transition-colors"[39m
+                  [33mtype[39m=[32m"submit"[39m
+                [36m>[39m
+                  [0mRegistrarse[0m
+                [36m</button>[39m
+              [36m</div>[39m
+            [36m</form>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</body>[39m
+[36m</html>[39m
+ ÔØ» Proxy.waitForWrapper node_modules/@testing-library/dom/dist/wait-for.js:163:27
+ ÔØ» src/pages/EmployeeRegister.test.tsx:197:13
+    195| 
+    196|       // Esperar a que se carguen los cargos
+    197|       await waitFor(() => {
+       |             ^
+    198|         const cargoSelect = screen.getByRole('combobox', { name: /CargÔÇª
+    199|         expect(cargoSelect).toBeInTheDocument();
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[4/8]ÔÄ»
+
+ FAIL  src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar opciones de cargo > 
+deber├¡a mostrar el cargo seleccionado
+TestingLibraryElementError: Unable to find role="combobox" and name `/Cargo/i`
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center 
+py-12 px-4 sm:px-6 lg:px-8"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"max-w-4xl w-full bg-white rounded-xl shadow-2xl overflow-hidden"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"bg-gradient-to-r from-blue-600 to-indigo-600 px-8 py-6"[39m
+        [36m>[39m
+          [36m<h2[39m
+            [33mclass[39m=[32m"text-3xl font-bold text-white text-center"[39m
+          [36m>[39m
+            [0m­ƒôØ Registro de Empleado[0m
+          [36m</h2>[39m
+          [36m<p[39m
+            [33mclass[39m=[32m"text-blue-100 text-center mt-2"[39m
+          [36m>[39m
+            [0mCompleta el siguiente formulario para registrarte como empleado[0m
+          [36m</p>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"p-8"[39m
+        [36m>[39m
+          [36m<form[39m
+            [33mclass[39m=[32m"space-y-6"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mRUT *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"12.345.678-9"[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mCargo *[0m
+                [36m</label>[39m
+                [36m<select[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                [36m>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m>[39m
+                    [0mSeleccionar cargo[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-1"[39m
+                  [36m>[39m
+                    [0mJefe de Taller[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-2"[39m
+                  [36m>[39m
+                    [0mCoordinador[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-3"[39m
+                  [36m>[39m
+                    [0mSupervisor[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-4"[39m
+                  [36m>[39m
+                    [0mMec├ínico[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-5"[39m
+                  [36m>[39m
+                    [0mGuardia[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-6"[39m
+                  [36m>[39m
+                    [0mAsistente de Repuestos[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-7"[39m
+                  [36m>[39m
+                    [0mChofer[0m
+                  [36m</option>[39m
+                [36m</select>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-3 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mNombre *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"Juan"[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mApellido Paterno *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"P├®rez"[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mApellido Materno *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 
+focus:ring-blue-500"[39m
+                  [33mplaceholder[39m=[32m"Gonz├ílez"[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mFecha de Nacimiento *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mtype[39m=[32m"date"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mEmail *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"juan.perez@ejemplo.com"[39m
+                  [33mtype[39m=[32m"email"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mTel├®fono 1 *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"+56912345678"[39m
+                  [33mtype[39m=[32m"tel"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mTel├®fono 2[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 
+focus:ring-blue-500"[39m
+                  [33mplaceholder[39m=[32m"+56987654321"[39m
+                  [33mtype[39m=[32m"tel"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mContrase├▒a *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"M├¡nimo 6 caracteres"[39m
+                  [33mtype[39m=[32m"password"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mConfirmar Contrase├▒a *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"Repite tu contrase├▒a"[39m
+                  [33mtype[39m=[32m"password"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"flex justify-end gap-4 pt-6"[39m
+            [36m>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"px-6 py-3 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 
+transition-colors"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mCancelar[0m
+              [36m</button>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 
+disabled:opacity-50 transition-colors"[39m
+                [33mtype[39m=[32m"submit"[39m
+              [36m>[39m
+                [0mRegistrarse[0m
+              [36m</button>[39m
+            [36m</div>[39m
+          [36m</form>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+
+Ignored nodes: comments, script, style
+[36m<html>[39m
+  [36m<head />[39m
+  [36m<body>[39m
+    [36m<div>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center 
+justify-center py-12 px-4 sm:px-6 lg:px-8"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"max-w-4xl w-full bg-white rounded-xl shadow-2xl overflow-hidden"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-gradient-to-r from-blue-600 to-indigo-600 px-8 py-6"[39m
+          [36m>[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"text-3xl font-bold text-white text-center"[39m
+            [36m>[39m
+              [0m­ƒôØ Registro de Empleado[0m
+            [36m</h2>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"text-blue-100 text-center mt-2"[39m
+            [36m>[39m
+              [0mCompleta el siguiente formulario para registrarte como empleado[0m
+            [36m</p>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"p-8"[39m
+          [36m>[39m
+            [36m<form[39m
+              [33mclass[39m=[32m"space-y-6"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+              [36m>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mRUT *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"12.345.678-9"[39m
+                    [33mtype[39m=[32m"text"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mCargo *[0m
+                  [36m</label>[39m
+                  [36m<select[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [36m>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m""[39m
+                    [36m>[39m
+                      [0mSeleccionar cargo[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-1"[39m
+                    [36m>[39m
+                      [0mJefe de Taller[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-2"[39m
+                    [36m>[39m
+                      [0mCoordinador[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-3"[39m
+                    [36m>[39m
+                      [0mSupervisor[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-4"[39m
+                    [36m>[39m
+                      [0mMec├ínico[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-5"[39m
+                    [36m>[39m
+                      [0mGuardia[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-6"[39m
+                    [36m>[39m
+                      [0mAsistente de Repuestos[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-7"[39m
+                    [36m>[39m
+                      [0mChofer[0m
+                    [36m</option>[39m
+                  [36m</select>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-3 gap-6"[39m
+              [36m>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mNombre *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"Juan"[39m
+                    [33mtype[39m=[32m"text"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mApellido Paterno *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"P├®rez"[39m
+                    [33mtype[39m=[32m"text"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mApellido Materno *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 
+focus:ring-blue-500"[39m
+                    [33mplaceholder[39m=[32m"Gonz├ílez"[39m
+                    [33mtype[39m=[32m"text"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+              [36m>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mFecha de Nacimiento *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mtype[39m=[32m"date"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mEmail *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"juan.perez@ejemplo.com"[39m
+                    [33mtype[39m=[32m"email"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+              [36m>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mTel├®fono 1 *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"+56912345678"[39m
+                    [33mtype[39m=[32m"tel"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mTel├®fono 2[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 
+focus:ring-blue-500"[39m
+                    [33mplaceholder[39m=[32m"+56987654321"[39m
+                    [33mtype[39m=[32m"tel"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+              [36m>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mContrase├▒a *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"M├¡nimo 6 caracteres"[39m
+                    [33mtype[39m=[32m"password"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mConfirmar Contrase├▒a *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"Repite tu contrase├▒a"[39m
+                    [33mtype[39m=[32m"password"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"flex justify-end gap-4 pt-6"[39m
+              [36m>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"px-6 py-3 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 
+transition-colors"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mCancelar[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 
+disabled:opacity-50 transition-colors"[39m
+                  [33mtype[39m=[32m"submit"[39m
+                [36m>[39m
+                  [0mRegistrarse[0m
+                [36m</button>[39m
+              [36m</div>[39m
+            [36m</form>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</body>[39m
+[36m</html>[39m
+ ÔØ» Proxy.waitForWrapper node_modules/@testing-library/dom/dist/wait-for.js:163:27
+ ÔØ» src/pages/EmployeeRegister.test.tsx:219:13
+    217|       renderWithRouter();
+    218| 
+    219|       await waitFor(() => {
+       |             ^
+    220|         const cargoSelect = screen.getByRole('combobox', { name: /CargÔÇª
+    221|         expect(cargoSelect).toBeInTheDocument();
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[5/8]ÔÄ»
+
+ FAIL  src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar errores de 
+validaci├│n > deber├¡a mostrar error cuando el email es inv├ílido
+TestingLibraryElementError: Unable to find an element with the text: /El email no es v├ílido/i. This could be because 
+the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make 
+your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center 
+py-12 px-4 sm:px-6 lg:px-8"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"max-w-4xl w-full bg-white rounded-xl shadow-2xl overflow-hidden"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"bg-gradient-to-r from-blue-600 to-indigo-600 px-8 py-6"[39m
+        [36m>[39m
+          [36m<h2[39m
+            [33mclass[39m=[32m"text-3xl font-bold text-white text-center"[39m
+          [36m>[39m
+            [0m­ƒôØ Registro de Empleado[0m
+          [36m</h2>[39m
+          [36m<p[39m
+            [33mclass[39m=[32m"text-blue-100 text-center mt-2"[39m
+          [36m>[39m
+            [0mCompleta el siguiente formulario para registrarte como empleado[0m
+          [36m</p>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"p-8"[39m
+        [36m>[39m
+          [36m<form[39m
+            [33mclass[39m=[32m"space-y-6"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mRUT *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"12.345.678-9"[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mCargo *[0m
+                [36m</label>[39m
+                [36m<select[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                [36m>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m>[39m
+                    [0mSeleccionar cargo[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-1"[39m
+                  [36m>[39m
+                    [0mJefe de Taller[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-2"[39m
+                  [36m>[39m
+                    [0mCoordinador[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-3"[39m
+                  [36m>[39m
+                    [0mSupervisor[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-4"[39m
+                  [36m>[39m
+                    [0mMec├ínico[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-5"[39m
+                  [36m>[39m
+                    [0mGuardia[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-6"[39m
+                  [36m>[39m
+                    [0mAsistente de Repuestos[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-7"[39m
+                  [36m>[39m
+                    [0mChofer[0m
+                  [36m</option>[39m
+                [36m</select>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-3 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mNombre *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"Juan"[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mApellido Paterno *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"P├®rez"[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mApellido Materno *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 
+focus:ring-blue-500"[39m
+                  [33mplaceholder[39m=[32m"Gonz├ílez"[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mFecha de Nacimiento *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mtype[39m=[32m"date"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mEmail *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"juan.perez@ejemplo.com"[39m
+                  [33mtype[39m=[32m"email"[39m
+                  [33mvalue[39m=[32m"email-invalido"[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mTel├®fono 1 *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"+56912345678"[39m
+                  [33mtype[39m=[32m"tel"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mTel├®fono 2[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 
+focus:ring-blue-500"[39m
+                  [33mplaceholder[39m=[32m"+56987654321"[39m
+                  [33mtype[39m=[32m"tel"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mContrase├▒a *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"M├¡nimo 6 caracteres"[39m
+                  [33mtype[39m=[32m"password"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mConfirmar Contrase├▒a *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"Repite tu contrase├▒a"[39m
+                  [33mtype[39m=[32m"password"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"flex justify-end gap-4 pt-6"[39m
+            [36m>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"px-6 py-3 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 
+transition-colors"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mCancelar[0m
+              [36m</button>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 
+disabled:opacity-50 transition-colors"[39m
+                [33mtype[39m=[32m"submit"[39m
+              [36m>[39m
+                [0mRegistrarse[0m
+              [36m</button>[39m
+            [36m</div>[39m
+          [36m</form>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+
+Ignored nodes: comments, script, style
+[36m<html>[39m
+  [36m<head />[39m
+  [36m<body>[39m
+    [36m<div>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center 
+justify-center py-12 px-4 sm:px-6 lg:px-8"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"max-w-4xl w-full bg-white rounded-xl shadow-2xl overflow-hidden"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-gradient-to-r from-blue-600 to-indigo-600 px-8 py-6"[39m
+          [36m>[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"text-3xl font-bold text-white text-center"[39m
+            [36m>[39m
+              [0m­ƒôØ Registro de Empleado[0m
+            [36m</h2>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"text-blue-100 text-center mt-2"[39m
+            [36m>[39m
+              [0mCompleta el siguiente formulario para registrarte como empleado[0m
+            [36m</p>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"p-8"[39m
+          [36m>[39m
+            [36m<form[39m
+              [33mclass[39m=[32m"space-y-6"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+              [36m>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mRUT *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"12.345.678-9"[39m
+                    [33mtype[39m=[32m"text"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mCargo *[0m
+                  [36m</label>[39m
+                  [36m<select[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [36m>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m""[39m
+                    [36m>[39m
+                      [0mSeleccionar cargo[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-1"[39m
+                    [36m>[39m
+                      [0mJefe de Taller[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-2"[39m
+                    [36m>[39m
+                      [0mCoordinador[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-3"[39m
+                    [36m>[39m
+                      [0mSupervisor[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-4"[39m
+                    [36m>[39m
+                      [0mMec├ínico[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-5"[39m
+                    [36m>[39m
+                      [0mGuardia[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-6"[39m
+                    [36m>[39m
+                      [0mAsistente de Repuestos[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-7"[39m
+                    [36m>[39m
+                      [0mChofer[0m
+                    [36m</option>[39m
+                  [36m</select>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-3 gap-6"[39m
+              [36m>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mNombre *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"Juan"[39m
+                    [33mtype[39m=[32m"text"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mApellido Paterno *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"P├®rez"[39m
+                    [33mtype[39m=[32m"text"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mApellido Materno *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 
+focus:ring-blue-500"[39m
+                    [33mplaceholder[39m=[32m"Gonz├ílez"[39m
+                    [33mtype[39m=[32m"text"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+              [36m>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mFecha de Nacimiento *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mtype[39m=[32m"date"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mEmail *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"juan.perez@ejemplo.com"[39m
+                    [33mtype[39m=[32m"email"[39m
+                    [33mvalue[39m=[32m"email-invalido"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+              [36m>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mTel├®fono 1 *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"+56912345678"[39m
+                    [33mtype[39m=[32m"tel"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mTel├®fono 2[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 
+focus:ring-blue-500"[39m
+                    [33mplaceholder[39m=[32m"+56987654321"[39m
+                    [33mtype[39m=[32m"tel"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+              [36m>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mContrase├▒a *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"M├¡nimo 6 caracteres"[39m
+                    [33mtype[39m=[32m"password"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mConfirmar Contrase├▒a *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"Repite tu contrase├▒a"[39m
+                    [33mtype[39m=[32m"password"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"flex justify-end gap-4 pt-6"[39m
+              [36m>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"px-6 py-3 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 
+transition-colors"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mCancelar[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 
+disabled:opacity-50 transition-colors"[39m
+                  [33mtype[39m=[32m"submit"[39m
+                [36m>[39m
+                  [0mRegistrarse[0m
+                [36m</button>[39m
+              [36m</div>[39m
+            [36m</form>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</body>[39m
+[36m</html>[39m
+ ÔØ» Proxy.waitForWrapper node_modules/@testing-library/dom/dist/wait-for.js:163:27
+ ÔØ» src/pages/EmployeeRegister.test.tsx:266:13
+    264|       await user.click(submitButton);
+    265| 
+    266|       await waitFor(() => {
+       |             ^
+    267|         expect(screen.getByText(/El email no es v├ílido/i)).toBeInTheDoÔÇª
+    268|       });
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[6/8]ÔÄ»
+
+ FAIL  src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Mostrar datos completos del 
+formulario > deber├¡a mantener todos los datos ingresados en el formulario
+TestingLibraryElementError: Unable to find role="combobox" and name `/Cargo/i`
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center 
+py-12 px-4 sm:px-6 lg:px-8"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"max-w-4xl w-full bg-white rounded-xl shadow-2xl overflow-hidden"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"bg-gradient-to-r from-blue-600 to-indigo-600 px-8 py-6"[39m
+        [36m>[39m
+          [36m<h2[39m
+            [33mclass[39m=[32m"text-3xl font-bold text-white text-center"[39m
+          [36m>[39m
+            [0m­ƒôØ Registro de Empleado[0m
+          [36m</h2>[39m
+          [36m<p[39m
+            [33mclass[39m=[32m"text-blue-100 text-center mt-2"[39m
+          [36m>[39m
+            [0mCompleta el siguiente formulario para registrarte como empleado[0m
+          [36m</p>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"p-8"[39m
+        [36m>[39m
+          [36m<form[39m
+            [33mclass[39m=[32m"space-y-6"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mRUT *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"12.345.678-9"[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m"12.345.678-9"[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mCargo *[0m
+                [36m</label>[39m
+                [36m<select[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                [36m>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m>[39m
+                    [0mSeleccionar cargo[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-1"[39m
+                  [36m>[39m
+                    [0mJefe de Taller[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-2"[39m
+                  [36m>[39m
+                    [0mCoordinador[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-3"[39m
+                  [36m>[39m
+                    [0mSupervisor[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-4"[39m
+                  [36m>[39m
+                    [0mMec├ínico[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-5"[39m
+                  [36m>[39m
+                    [0mGuardia[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-6"[39m
+                  [36m>[39m
+                    [0mAsistente de Repuestos[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-7"[39m
+                  [36m>[39m
+                    [0mChofer[0m
+                  [36m</option>[39m
+                [36m</select>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-3 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mNombre *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"Juan"[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m"Juan"[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mApellido Paterno *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"P├®rez"[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m"P├®rez"[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mApellido Materno *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 
+focus:ring-blue-500"[39m
+                  [33mplaceholder[39m=[32m"Gonz├ílez"[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m"Gonz├ílez"[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mFecha de Nacimiento *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mtype[39m=[32m"date"[39m
+                  [33mvalue[39m=[32m"1990-01-15"[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mEmail *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"juan.perez@ejemplo.com"[39m
+                  [33mtype[39m=[32m"email"[39m
+                  [33mvalue[39m=[32m"juan.perez@ejemplo.com"[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mTel├®fono 1 *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"+56912345678"[39m
+                  [33mtype[39m=[32m"tel"[39m
+                  [33mvalue[39m=[32m"+56912345678"[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mTel├®fono 2[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 
+focus:ring-blue-500"[39m
+                  [33mplaceholder[39m=[32m"+56987654321"[39m
+                  [33mtype[39m=[32m"tel"[39m
+                  [33mvalue[39m=[32m"+56987654321"[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mContrase├▒a *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"M├¡nimo 6 caracteres"[39m
+                  [33mtype[39m=[32m"password"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mConfirmar Contrase├▒a *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"Repite tu contrase├▒a"[39m
+                  [33mtype[39m=[32m"password"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"flex justify-end gap-4 pt-6"[39m
+            [36m>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"px-6 py-3 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 
+transition-colors"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mCancelar[0m
+              [36m</button>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 
+disabled:opacity-50 transition-colors"[39m
+                [33mtype[39m=[32m"submit"[39m
+              [36m>[39m
+                [0mRegistrarse[0m
+              [36m</button>[39m
+            [36m</div>[39m
+          [36m</form>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+
+Ignored nodes: comments, script, style
+[36m<html>[39m
+  [36m<head />[39m
+  [36m<body>[39m
+    [36m<div>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center 
+justify-center py-12 px-4 sm:px-6 lg:px-8"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"max-w-4xl w-full bg-white rounded-xl shadow-2xl overflow-hidden"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-gradient-to-r from-blue-600 to-indigo-600 px-8 py-6"[39m
+          [36m>[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"text-3xl font-bold text-white text-center"[39m
+            [36m>[39m
+              [0m­ƒôØ Registro de Empleado[0m
+            [36m</h2>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"text-blue-100 text-center mt-2"[39m
+            [36m>[39m
+              [0mCompleta el siguiente formulario para registrarte como empleado[0m
+            [36m</p>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"p-8"[39m
+          [36m>[39m
+            [36m<form[39m
+              [33mclass[39m=[32m"space-y-6"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+              [36m>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mRUT *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"12.345.678-9"[39m
+                    [33mtype[39m=[32m"text"[39m
+                    [33mvalue[39m=[32m"12.345.678-9"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mCargo *[0m
+                  [36m</label>[39m
+                  [36m<select[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [36m>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m""[39m
+                    [36m>[39m
+                      [0mSeleccionar cargo[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-1"[39m
+                    [36m>[39m
+                      [0mJefe de Taller[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-2"[39m
+                    [36m>[39m
+                      [0mCoordinador[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-3"[39m
+                    [36m>[39m
+                      [0mSupervisor[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-4"[39m
+                    [36m>[39m
+                      [0mMec├ínico[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-5"[39m
+                    [36m>[39m
+                      [0mGuardia[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-6"[39m
+                    [36m>[39m
+                      [0mAsistente de Repuestos[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-7"[39m
+                    [36m>[39m
+                      [0mChofer[0m
+                    [36m</option>[39m
+                  [36m</select>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-3 gap-6"[39m
+              [36m>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mNombre *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"Juan"[39m
+                    [33mtype[39m=[32m"text"[39m
+                    [33mvalue[39m=[32m"Juan"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mApellido Paterno *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"P├®rez"[39m
+                    [33mtype[39m=[32m"text"[39m
+                    [33mvalue[39m=[32m"P├®rez"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mApellido Materno *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 
+focus:ring-blue-500"[39m
+                    [33mplaceholder[39m=[32m"Gonz├ílez"[39m
+                    [33mtype[39m=[32m"text"[39m
+                    [33mvalue[39m=[32m"Gonz├ílez"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+              [36m>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mFecha de Nacimiento *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mtype[39m=[32m"date"[39m
+                    [33mvalue[39m=[32m"1990-01-15"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mEmail *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"juan.perez@ejemplo.com"[39m
+                    [33mtype[39m=[32m"email"[39m
+                    [33mvalue[39m=[32m"juan.perez@ejemplo.com"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+              [36m>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mTel├®fono 1 *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"+56912345678"[39m
+                    [33mtype[39m=[32m"tel"[39m
+                    [33mvalue[39m=[32m"+56912345678"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mTel├®fono 2[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 
+focus:ring-blue-500"[39m
+                    [33mplaceholder[39m=[32m"+56987654321"[39m
+                    [33mtype[39m=[32m"tel"[39m
+                    [33mvalue[39m=[32m"+56987654321"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+              [36m>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mContrase├▒a *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"M├¡nimo 6 caracteres"[39m
+                    [33mtype[39m=[32m"password"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mConfirmar Contrase├▒a *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"Repite tu contrase├▒a"[39m
+                    [33mtype[39m=[32m"password"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"flex justify-end gap-4 pt-6"[39m
+              [36m>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"px-6 py-3 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 
+transition-colors"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mCancelar[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 
+disabled:opacity-50 transition-colors"[39m
+                  [33mtype[39m=[32m"submit"[39m
+                [36m>[39m
+                  [0mRegistrarse[0m
+                [36m</button>[39m
+              [36m</div>[39m
+            [36m</form>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</body>[39m
+[36m</html>[39m
+ ÔØ» Proxy.waitForWrapper node_modules/@testing-library/dom/dist/wait-for.js:163:27
+ ÔØ» src/pages/EmployeeRegister.test.tsx:317:13
+    315|       await user.type(screen.getByPlaceholderText(/\+56987654321/i), 'ÔÇª
+    316|       
+    317|       await waitFor(() => {
+       |             ^
+    318|         const cargoSelect = screen.getByRole('combobox', { name: /CargÔÇª
+    319|         expect(cargoSelect).toBeInTheDocument();
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[7/8]ÔÄ»
+
+ FAIL  src/pages/EmployeeRegister.test.tsx > EmployeeRegister - Pruebas de Props y Datos > Botones del formulario > 
+deber├¡a mostrar "Registrando..." cuando est├í cargando
+TestingLibraryElementError: Unable to find role="combobox" and name `/Cargo/i`
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center 
+py-12 px-4 sm:px-6 lg:px-8"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"max-w-4xl w-full bg-white rounded-xl shadow-2xl overflow-hidden"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"bg-gradient-to-r from-blue-600 to-indigo-600 px-8 py-6"[39m
+        [36m>[39m
+          [36m<h2[39m
+            [33mclass[39m=[32m"text-3xl font-bold text-white text-center"[39m
+          [36m>[39m
+            [0m­ƒôØ Registro de Empleado[0m
+          [36m</h2>[39m
+          [36m<p[39m
+            [33mclass[39m=[32m"text-blue-100 text-center mt-2"[39m
+          [36m>[39m
+            [0mCompleta el siguiente formulario para registrarte como empleado[0m
+          [36m</p>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"p-8"[39m
+        [36m>[39m
+          [36m<form[39m
+            [33mclass[39m=[32m"space-y-6"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mRUT *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"12.345.678-9"[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m"12.345.678-9"[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mCargo *[0m
+                [36m</label>[39m
+                [36m<select[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                [36m>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m>[39m
+                    [0mSeleccionar cargo[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-1"[39m
+                  [36m>[39m
+                    [0mJefe de Taller[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-2"[39m
+                  [36m>[39m
+                    [0mCoordinador[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-3"[39m
+                  [36m>[39m
+                    [0mSupervisor[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-4"[39m
+                  [36m>[39m
+                    [0mMec├ínico[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-5"[39m
+                  [36m>[39m
+                    [0mGuardia[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-6"[39m
+                  [36m>[39m
+                    [0mAsistente de Repuestos[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"-7"[39m
+                  [36m>[39m
+                    [0mChofer[0m
+                  [36m</option>[39m
+                [36m</select>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-3 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mNombre *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"Juan"[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m"Juan"[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mApellido Paterno *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"P├®rez"[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m"P├®rez"[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mApellido Materno *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 
+focus:ring-blue-500"[39m
+                  [33mplaceholder[39m=[32m"Gonz├ílez"[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mFecha de Nacimiento *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mtype[39m=[32m"date"[39m
+                  [33mvalue[39m=[32m"1990-01-15"[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mEmail *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"juan.perez@ejemplo.com"[39m
+                  [33mtype[39m=[32m"email"[39m
+                  [33mvalue[39m=[32m"juan@test.com"[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mTel├®fono 1 *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"+56912345678"[39m
+                  [33mtype[39m=[32m"tel"[39m
+                  [33mvalue[39m=[32m"+56912345678"[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mTel├®fono 2[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 
+focus:ring-blue-500"[39m
+                  [33mplaceholder[39m=[32m"+56987654321"[39m
+                  [33mtype[39m=[32m"tel"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mContrase├▒a *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"M├¡nimo 6 caracteres"[39m
+                  [33mtype[39m=[32m"password"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                [36m>[39m
+                  [0mConfirmar Contrase├▒a *[0m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [33mplaceholder[39m=[32m"Repite tu contrase├▒a"[39m
+                  [33mtype[39m=[32m"password"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"flex justify-end gap-4 pt-6"[39m
+            [36m>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"px-6 py-3 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 
+transition-colors"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mCancelar[0m
+              [36m</button>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 
+disabled:opacity-50 transition-colors"[39m
+                [33mtype[39m=[32m"submit"[39m
+              [36m>[39m
+                [0mRegistrarse[0m
+              [36m</button>[39m
+            [36m</div>[39m
+          [36m</form>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+
+Ignored nodes: comments, script, style
+[36m<html>[39m
+  [36m<head />[39m
+  [36m<body>[39m
+    [36m<div>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center 
+justify-center py-12 px-4 sm:px-6 lg:px-8"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"max-w-4xl w-full bg-white rounded-xl shadow-2xl overflow-hidden"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-gradient-to-r from-blue-600 to-indigo-600 px-8 py-6"[39m
+          [36m>[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"text-3xl font-bold text-white text-center"[39m
+            [36m>[39m
+              [0m­ƒôØ Registro de Empleado[0m
+            [36m</h2>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"text-blue-100 text-center mt-2"[39m
+            [36m>[39m
+              [0mCompleta el siguiente formulario para registrarte como empleado[0m
+            [36m</p>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"p-8"[39m
+          [36m>[39m
+            [36m<form[39m
+              [33mclass[39m=[32m"space-y-6"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+              [36m>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mRUT *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"12.345.678-9"[39m
+                    [33mtype[39m=[32m"text"[39m
+                    [33mvalue[39m=[32m"12.345.678-9"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mCargo *[0m
+                  [36m</label>[39m
+                  [36m<select[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                  [36m>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m""[39m
+                    [36m>[39m
+                      [0mSeleccionar cargo[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-1"[39m
+                    [36m>[39m
+                      [0mJefe de Taller[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-2"[39m
+                    [36m>[39m
+                      [0mCoordinador[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-3"[39m
+                    [36m>[39m
+                      [0mSupervisor[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-4"[39m
+                    [36m>[39m
+                      [0mMec├ínico[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-5"[39m
+                    [36m>[39m
+                      [0mGuardia[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-6"[39m
+                    [36m>[39m
+                      [0mAsistente de Repuestos[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"-7"[39m
+                    [36m>[39m
+                      [0mChofer[0m
+                    [36m</option>[39m
+                  [36m</select>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-3 gap-6"[39m
+              [36m>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mNombre *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"Juan"[39m
+                    [33mtype[39m=[32m"text"[39m
+                    [33mvalue[39m=[32m"Juan"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mApellido Paterno *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"P├®rez"[39m
+                    [33mtype[39m=[32m"text"[39m
+                    [33mvalue[39m=[32m"P├®rez"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mApellido Materno *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 
+focus:ring-blue-500"[39m
+                    [33mplaceholder[39m=[32m"Gonz├ílez"[39m
+                    [33mtype[39m=[32m"text"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+              [36m>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mFecha de Nacimiento *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mtype[39m=[32m"date"[39m
+                    [33mvalue[39m=[32m"1990-01-15"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mEmail *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"juan.perez@ejemplo.com"[39m
+                    [33mtype[39m=[32m"email"[39m
+                    [33mvalue[39m=[32m"juan@test.com"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+              [36m>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mTel├®fono 1 *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"+56912345678"[39m
+                    [33mtype[39m=[32m"tel"[39m
+                    [33mvalue[39m=[32m"+56912345678"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+ Test Files  1 failed | 1 passed (2)
+      Tests  8 failed | 17 passed (25)
+   Start at  13:53:18
+   Duration  16.55s (transform 360ms, setup 1.01s, collect 643ms, tests 12.47s, environment 3.95s, prepare 84ms)
+
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mTel├®fono 2[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 
+focus:ring-blue-500"[39m
+                    [33mplaceholder[39m=[32m"+56987654321"[39m
+                    [33mtype[39m=[32m"tel"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+              [36m>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mContrase├▒a *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"M├¡nimo 6 caracteres"[39m
+                    [33mtype[39m=[32m"password"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-2"[39m
+                  [36m>[39m
+                    [0mConfirmar Contrase├▒a *[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 
+border-gray-300"[39m
+                    [33mplaceholder[39m=[32m"Repite tu contrase├▒a"[39m
+                    [33mtype[39m=[32m"password"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"flex justify-end gap-4 pt-6"[39m
+              [36m>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"px-6 py-3 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 
+transition-colors"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mCancelar[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 
+disabled:opacity-50 transition-colors"[39m
+                  [33mtype[39m=[32m"submit"[39m
+                [36m>[39m
+                  [0mRegistrarse[0m
+                [36m</button>[39m
+              [36m</div>[39m
+            [36m</form>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</body>[39m
+[36m</html>[39m
+ ÔØ» Proxy.waitForWrapper node_modules/@testing-library/dom/dist/wait-for.js:163:27
+ ÔØ» src/pages/EmployeeRegister.test.tsx:377:13
+    375|       await user.type(screen.getByPlaceholderText(/\+56912345678/i), 'ÔÇª
+    376|       
+    377|       await waitFor(() => {
+       |             ^
+    378|         const cargoSelect = screen.getByRole('combobox', { name: /CargÔÇª
+    379|         expect(cargoSelect).toBeInTheDocument();
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[8/8]ÔÄ»
+
