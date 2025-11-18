@@ -212,6 +212,7 @@ export default function SupervisorDashboard({ activeSection = 'tablero' }: Super
         } else if (Array.isArray(data)) {
           const mapped = data.map((row: any) => ({
             id: row.id_aprobacion,
+            id_aprobacion: row.id_aprobacion, // Mantener ambos para compatibilidad
             estado: row.estado,
             comentarios: row.comentarios,
             created_at: row.created_at,
@@ -220,8 +221,29 @@ export default function SupervisorDashboard({ activeSection = 'tablero' }: Super
             aprobado_por: row.aprobado_por || null,
             aprobado_en: row.aprobado_en || null,
           }));
-          pendientes = mapped.filter((row: any) => (row.estado || '').toLowerCase() === 'pendiente');
-          historial = mapped.filter((row: any) => (row.estado || '').toLowerCase() !== 'pendiente');
+          
+          // Filtrar por estado de forma más estricta
+          pendientes = mapped.filter((row: any) => {
+            const estado = (row.estado || '').toLowerCase().trim();
+            return estado === 'pendiente';
+          });
+          
+          historial = mapped.filter((row: any) => {
+            const estado = (row.estado || '').toLowerCase().trim();
+            return estado !== 'pendiente' && estado !== '';
+          });
+          
+          // Log para debugging: verificar si hay duplicados por vehículo
+          const vehiculosPendientes = pendientes.map(p => p.orden?.vehiculo?.patente_vehiculo).filter(Boolean);
+          const vehiculosHistorial = historial.map(h => h.orden?.vehiculo?.patente_vehiculo).filter(Boolean);
+          const duplicados = vehiculosPendientes.filter(v => vehiculosHistorial.includes(v));
+          
+          if (duplicados.length > 0) {
+            console.warn('⚠️ Vehículos que aparecen en pendientes e historial:', duplicados);
+            console.warn('⚠️ Esto puede indicar registros diferentes con el mismo vehículo o un problema de estado');
+          }
+          
+          console.log(`📊 Aprobaciones cargadas: ${mapped.length} total, ${pendientes.length} pendientes, ${historial.length} en historial`);
         }
       } else {
         const asignaciones = readLocal('apt_aprobacion_asignacion', []);
@@ -248,6 +270,49 @@ export default function SupervisorDashboard({ activeSection = 'tablero' }: Super
     }
 
     try {
+      // Validar que tenemos un ID válido
+      if (!asignacion.id || !asignacion.id_aprobacion) {
+        const idAprobacion = asignacion.id || asignacion.id_aprobacion;
+        console.error('❌ ID de aprobación inválido:', idAprobacion, asignacion);
+        showToast({
+          type: 'error',
+          message: 'Error: ID de aprobación inválido. Recarga la página.',
+        });
+        return;
+      }
+
+      const idAprobacion = asignacion.id || asignacion.id_aprobacion;
+
+      // Verificar que el registro existe y está en estado pendiente
+      const { data: registroExistente, error: checkError } = await supabase
+        .from('aprobacion_asignacion_ot')
+        .select('id_aprobacion, estado')
+        .eq('id_aprobacion', idAprobacion)
+        .maybeSingle();
+
+      if (checkError) {
+        console.error('❌ Error verificando registro:', checkError);
+        throw checkError;
+      }
+
+      if (!registroExistente) {
+        showToast({
+          type: 'error',
+          message: 'La asignación no existe o ya fue procesada. Recarga la página.',
+        });
+        await loadDiagnosticos();
+        return;
+      }
+
+      if (registroExistente.estado !== 'pendiente') {
+        showToast({
+          type: 'warning',
+          message: `Esta asignación ya fue ${registroExistente.estado}. Recarga la página.`,
+        });
+        await loadDiagnosticos();
+        return;
+      }
+
       // Verificar si el usuario tiene un ID válido en la BD
       let aprobadoPorId: number | null = null;
       if (user?.id_usuario && user.id_usuario > 0) {
@@ -264,7 +329,7 @@ export default function SupervisorDashboard({ activeSection = 'tablero' }: Super
       }
 
       const now = new Date().toISOString();
-      const { error } = await supabase
+      const { data, error } = await supabase
         .from('aprobacion_asignacion_ot')
         .update({
           estado: 'aprobada',
@@ -272,10 +337,28 @@ export default function SupervisorDashboard({ activeSection = 'tablero' }: Super
           aprobado_en: now,
           updated_at: now,
         })
-        .eq('id_aprobacion', asignacion.id);
+        .eq('id_aprobacion', idAprobacion)
+        .eq('estado', 'pendiente') // Solo actualizar si sigue pendiente
+        .select();
 
       if (error) {
+        console.error('❌ Error en UPDATE:', error);
+        console.error('❌ Detalles:', {
+          code: error.code,
+          message: error.message,
+          details: error.details,
+          hint: error.hint,
+        });
         throw error;
+      }
+
+      if (!data || data.length === 0) {
+        showToast({
+          type: 'warning',
+          message: 'La asignación ya fue procesada por otro usuario. Recarga la página.',
+        });
+        await loadDiagnosticos();
+        return;
       }
 
       showToast({
@@ -283,11 +366,14 @@ export default function SupervisorDashboard({ activeSection = 'tablero' }: Super
         message: 'Asignación aprobada correctamente.',
       });
       await loadDiagnosticos();
-    } catch (err) {
-      console.error('Error aprobando asignación:', err);
+    } catch (err: any) {
+      console.error('❌ Error aprobando asignación:', err);
+      const errorMessage = err?.message || err?.details || 'Error desconocido';
+      const errorCode = err?.code || 'UNKNOWN';
+      
       showToast({
         type: 'error',
-        message: 'No se pudo aprobar la asignación. Revisa la consola.',
+        message: `Error ${errorCode}: ${errorMessage}. Revisa la consola para más detalles.`,
       });
     }
   };
@@ -302,6 +388,49 @@ export default function SupervisorDashboard({ activeSection = 'tablero' }: Super
     }
 
     try {
+      // Validar que tenemos un ID válido
+      if (!asignacion.id && !asignacion.id_aprobacion) {
+        const idAprobacion = asignacion.id || asignacion.id_aprobacion;
+        console.error('❌ ID de aprobación inválido:', idAprobacion, asignacion);
+        showToast({
+          type: 'error',
+          message: 'Error: ID de aprobación inválido. Recarga la página.',
+        });
+        return;
+      }
+
+      const idAprobacion = asignacion.id || asignacion.id_aprobacion;
+
+      // Verificar que el registro existe y está en estado pendiente
+      const { data: registroExistente, error: checkError } = await supabase
+        .from('aprobacion_asignacion_ot')
+        .select('id_aprobacion, estado')
+        .eq('id_aprobacion', idAprobacion)
+        .maybeSingle();
+
+      if (checkError) {
+        console.error('❌ Error verificando registro:', checkError);
+        throw checkError;
+      }
+
+      if (!registroExistente) {
+        showToast({
+          type: 'error',
+          message: 'La asignación no existe o ya fue procesada. Recarga la página.',
+        });
+        await loadDiagnosticos();
+        return;
+      }
+
+      if (registroExistente.estado !== 'pendiente') {
+        showToast({
+          type: 'warning',
+          message: `Esta asignación ya fue ${registroExistente.estado}. Recarga la página.`,
+        });
+        await loadDiagnosticos();
+        return;
+      }
+
       // Verificar si el usuario tiene un ID válido en la BD
       let aprobadoPorId: number | null = null;
       if (user?.id_usuario && user.id_usuario > 0) {
@@ -318,7 +447,7 @@ export default function SupervisorDashboard({ activeSection = 'tablero' }: Super
       }
 
       const now = new Date().toISOString();
-      const { error: updateError } = await supabase
+      const { data, error: updateError } = await supabase
         .from('aprobacion_asignacion_ot')
         .update({
           estado: 'rechazada',
@@ -326,10 +455,28 @@ export default function SupervisorDashboard({ activeSection = 'tablero' }: Super
           aprobado_en: now,
           updated_at: now,
         })
-        .eq('id_aprobacion', asignacion.id);
+        .eq('id_aprobacion', idAprobacion)
+        .eq('estado', 'pendiente') // Solo actualizar si sigue pendiente
+        .select();
 
       if (updateError) {
+        console.error('❌ Error en UPDATE:', updateError);
+        console.error('❌ Detalles:', {
+          code: updateError.code,
+          message: updateError.message,
+          details: updateError.details,
+          hint: updateError.hint,
+        });
         throw updateError;
+      }
+
+      if (!data || data.length === 0) {
+        showToast({
+          type: 'warning',
+          message: 'La asignación ya fue procesada por otro usuario. Recarga la página.',
+        });
+        await loadDiagnosticos();
+        return;
       }
 
       const mecanicoId = asignacion?.mecanico?.id_empleado;
@@ -355,11 +502,14 @@ export default function SupervisorDashboard({ activeSection = 'tablero' }: Super
         message: 'Asignación rechazada.',
       });
       await loadDiagnosticos();
-    } catch (err) {
-      console.error('Error rechazando asignación:', err);
+    } catch (err: any) {
+      console.error('❌ Error rechazando asignación:', err);
+      const errorMessage = err?.message || err?.details || 'Error desconocido';
+      const errorCode = err?.code || 'UNKNOWN';
+      
       showToast({
         type: 'error',
-        message: 'No se pudo rechazar la asignación. Revisa la consola.',
+        message: `Error ${errorCode}: ${errorMessage}. Revisa la consola para más detalles.`,
       });
     }
   };
@@ -659,6 +809,9 @@ export default function SupervisorDashboard({ activeSection = 'tablero' }: Super
                             <span className="inline-flex items-center gap-2 rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700">
                               OT #{orden?.id_orden_trabajo || 'N/A'}
                             </span>
+                            <span className="inline-flex items-center gap-2 rounded-full bg-slate-200 px-3 py-1 text-xs font-semibold text-slate-600" title="ID de aprobación">
+                              Aprobación #{asignacion.id || asignacion.id_aprobacion || 'N/A'}
+                            </span>
                           </div>
                           <p className="text-sm text-slate-600">
                             {solicitud?.tipo_problema || orden?.descripcion_ot || 'Sin descripción'}
@@ -739,9 +892,15 @@ export default function SupervisorDashboard({ activeSection = 'tablero' }: Super
                       <div className="flex flex-col gap-3 md:flex-row md:items-start md:justify-between">
                         <div className="space-y-2">
                           <div className="flex flex-wrap items-center gap-2 text-sm font-semibold">
-                            <span className="inline-flex.items-center gap-2 rounded-full bg-slate-800 px-3 py-1 text-sm font-semibold text-white">
+                            <span className="inline-flex items-center gap-2 rounded-full bg-slate-800 px-3 py-1 text-sm font-semibold text-white">
                               <Truck size={16} />
                               {vehiculo?.patente_vehiculo || 'Patente no registrada'}
+                            </span>
+                            <span className="inline-flex items-center gap-2 rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700">
+                              OT #{orden?.id_orden_trabajo || 'N/A'}
+                            </span>
+                            <span className="inline-flex items-center gap-2 rounded-full bg-slate-200 px-3 py-1 text-xs font-semibold text-slate-600" title="ID de aprobación">
+                              Aprobación #{asignacion.id || asignacion.id_aprobacion || 'N/A'}
                             </span>
                             <span className={`inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-semibold ${badgeClasses}`}>
                               {asignacion.estado?.toUpperCase()}
