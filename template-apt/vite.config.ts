@@ -53,5 +53,10 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: './src/test/setup.ts',
     css: true,
+    include: [
+      'src/pages/RegistroUsuarios.test.tsx',
+      'src/pages/Login.test.tsx',
+      'src/pages/Vehicles.test.tsx'
+    ],
   },
 });
