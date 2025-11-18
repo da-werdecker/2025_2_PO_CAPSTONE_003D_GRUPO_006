@@ -248,12 +248,27 @@ export default function SupervisorDashboard({ activeSection = 'tablero' }: Super
     }
 
     try {
+      // Verificar si el usuario tiene un ID válido en la BD
+      let aprobadoPorId: number | null = null;
+      if (user?.id_usuario && user.id_usuario > 0) {
+        // Verificar que el usuario existe en la BD
+        const { data: usuarioExiste } = await supabase
+          .from('usuario')
+          .select('id_usuario')
+          .eq('id_usuario', user.id_usuario)
+          .maybeSingle();
+        
+        if (usuarioExiste) {
+          aprobadoPorId = user.id_usuario;
+        }
+      }
+
       const now = new Date().toISOString();
       const { error } = await supabase
         .from('aprobacion_asignacion_ot')
         .update({
           estado: 'aprobada',
-          aprobado_por: user?.id_usuario || null,
+          aprobado_por: aprobadoPorId,
           aprobado_en: now,
           updated_at: now,
         })
@@ -287,12 +302,27 @@ export default function SupervisorDashboard({ activeSection = 'tablero' }: Super
     }
 
     try {
+      // Verificar si el usuario tiene un ID válido en la BD
+      let aprobadoPorId: number | null = null;
+      if (user?.id_usuario && user.id_usuario > 0) {
+        // Verificar que el usuario existe en la BD
+        const { data: usuarioExiste } = await supabase
+          .from('usuario')
+          .select('id_usuario')
+          .eq('id_usuario', user.id_usuario)
+          .maybeSingle();
+        
+        if (usuarioExiste) {
+          aprobadoPorId = user.id_usuario;
+        }
+      }
+
       const now = new Date().toISOString();
       const { error: updateError } = await supabase
         .from('aprobacion_asignacion_ot')
         .update({
           estado: 'rechazada',
-          aprobado_por: user?.id_usuario || null,
+          aprobado_por: aprobadoPorId,
           aprobado_en: now,
           updated_at: now,
         })

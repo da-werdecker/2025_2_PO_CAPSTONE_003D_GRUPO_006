@@ -1,0 +1,26 @@
+services:
+  # Servicio principal: Frontend + Backend combinados
+  - type: web
+    name: apt-aplicacion
+    env: node
+    plan: free  # Cambia a 'starter' o 'standard' si necesitas más recursos
+    region: oregon  # Cambia según tu preferencia
+    buildCommand: npm install && npm run build
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000  # Render asigna el puerto automáticamente, pero puedes especificarlo
+      - key: MAILERSEND_API_KEY
+        sync: false  # Configúralo manualmente en el dashboard de Render
+      - key: MAILERSEND_FROM
+        value: no-reply@apt-taller.com
+      - key: VITE_SUPABASE_URL
+        sync: false  # Configúralo manualmente en el dashboard de Render
+      - key: VITE_SUPABASE_ANON_KEY
+        sync: false  # Configúralo manualmente en el dashboard de Render
+    healthCheckPath: /
+    autoDeploy: true
+
+
