@@ -1,0 +1,704 @@
+{
+	"info": {
+		"_postman_id": "apt-system-collection",
+		"name": "APT System - API Collection",
+		"description": "Colección de endpoints para probar el sistema APT (Asistente de Planificación de Transporte) de PepsiCo Chile",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Express API - Email Service",
+			"item": [
+				{
+					"name": "Enviar Email",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"to\": \"usuario@ejemplo.com\",\n  \"subject\": \"Prueba de Email - APT System\",\n  \"html\": \"<h1>Prueba de Email</h1><p>Este es un correo de prueba del sistema APT.</p>\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3001/api/send-email",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"api",
+								"send-email"
+							]
+						},
+						"description": "Endpoint para enviar correos electrónicos usando MailerSend"
+					},
+					"response": []
+				}
+			],
+			"description": "Endpoints del servidor Express.js para servicios de email"
+		},
+		{
+			"name": "Supabase API - Autenticación",
+			"item": [
+				{
+					"name": "Obtener Token de Autenticación",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "apikey",
+								"value": "{{SUPABASE_ANON_KEY}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"usuario@ejemplo.com\",\n  \"password\": \"contraseña123\"\n}"
+						},
+						"url": {
+							"raw": "{{SUPABASE_URL}}/auth/v1/token?grant_type=password",
+							"host": [
+								"{{SUPABASE_URL}}"
+							],
+							"path": [
+								"auth",
+								"v1",
+								"token"
+							],
+							"query": [
+								{
+									"key": "grant_type",
+									"value": "password"
+								}
+							]
+						},
+						"description": "Obtener token de autenticación de Supabase (si se usa autenticación nativa)"
+					},
+					"response": []
+				}
+			],
+			"description": "Endpoints de autenticación de Supabase"
+		},
+		{
+			"name": "Supabase API - Usuarios",
+			"item": [
+				{
+					"name": "Listar Usuarios",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "apikey",
+								"value": "{{SUPABASE_ANON_KEY}}",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{ACCESS_TOKEN}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{SUPABASE_URL}}/rest/v1/usuario?select=*",
+							"host": [
+								"{{SUPABASE_URL}}"
+							],
+							"path": [
+								"rest",
+								"v1",
+								"usuario"
+							],
+							"query": [
+								{
+									"key": "select",
+									"value": "*"
+								}
+							]
+						},
+						"description": "Obtener lista de usuarios (requiere autenticación y permisos RLS)"
+					},
+					"response": []
+				},
+				{
+					"name": "Crear Usuario",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "apikey",
+								"value": "{{SUPABASE_ANON_KEY}}",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{ACCESS_TOKEN}}",
+								"type": "text"
+							},
+							{
+								"key": "Prefer",
+								"value": "return=representation",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"usuario\": \"nuevo_usuario\",\n  \"clave\": \"contraseña123\",\n  \"rol\": \"admin\",\n  \"estado_usuario\": true\n}"
+						},
+						"url": {
+							"raw": "{{SUPABASE_URL}}/rest/v1/usuario",
+							"host": [
+								"{{SUPABASE_URL}}"
+							],
+							"path": [
+								"rest",
+								"v1",
+								"usuario"
+							]
+						},
+						"description": "Crear un nuevo usuario (requiere permisos de administrador)"
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener Usuario por ID",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "apikey",
+								"value": "{{SUPABASE_ANON_KEY}}",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{ACCESS_TOKEN}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{SUPABASE_URL}}/rest/v1/usuario?id_usuario=eq.1&select=*",
+							"host": [
+								"{{SUPABASE_URL}}"
+							],
+							"path": [
+								"rest",
+								"v1",
+								"usuario"
+							],
+							"query": [
+								{
+									"key": "id_usuario",
+									"value": "eq.1",
+									"description": "Filtrar por ID de usuario"
+								},
+								{
+									"key": "select",
+									"value": "*"
+								}
+							]
+						},
+						"description": "Obtener un usuario específico por su ID"
+					},
+					"response": []
+				}
+			],
+			"description": "Endpoints para gestión de usuarios"
+		},
+		{
+			"name": "Supabase API - Empleados",
+			"item": [
+				{
+					"name": "Listar Empleados",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "apikey",
+								"value": "{{SUPABASE_ANON_KEY}}",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{ACCESS_TOKEN}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{SUPABASE_URL}}/rest/v1/empleado?select=*,cargo(*),usuario(*)",
+							"host": [
+								"{{SUPABASE_URL}}"
+							],
+							"path": [
+								"rest",
+								"v1",
+								"empleado"
+							],
+							"query": [
+								{
+									"key": "select",
+									"value": "*,cargo(*),usuario(*)",
+									"description": "Incluir relaciones con cargo y usuario"
+								}
+							]
+						},
+						"description": "Obtener lista de empleados con sus relaciones"
+					},
+					"response": []
+				},
+				{
+					"name": "Crear Empleado",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "apikey",
+								"value": "{{SUPABASE_ANON_KEY}}",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{ACCESS_TOKEN}}",
+								"type": "text"
+							},
+							{
+								"key": "Prefer",
+								"value": "return=representation",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"nombre\": \"Juan\",\n  \"apellido_paterno\": \"Pérez\",\n  \"apellido_materno\": \"González\",\n  \"rut\": \"12345678-9\",\n  \"email\": \"juan.perez@pepsico.cl\",\n  \"telefono1\": \"+56912345678\",\n  \"fecha_nacimiento\": \"1990-01-15\",\n  \"cargo_id\": 1\n}"
+						},
+						"url": {
+							"raw": "{{SUPABASE_URL}}/rest/v1/empleado",
+							"host": [
+								"{{SUPABASE_URL}}"
+							],
+							"path": [
+								"rest",
+								"v1",
+								"empleado"
+							]
+						},
+						"description": "Crear un nuevo empleado"
+					},
+					"response": []
+				}
+			],
+			"description": "Endpoints para gestión de empleados"
+		},
+		{
+			"name": "Supabase API - Vehículos",
+			"item": [
+				{
+					"name": "Listar Vehículos",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "apikey",
+								"value": "{{SUPABASE_ANON_KEY}}",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{ACCESS_TOKEN}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{SUPABASE_URL}}/rest/v1/vehiculo?select=*,modelo_vehiculo(*,marca_vehiculo(*)),tipo_vehiculo(*),sucursal(*)",
+							"host": [
+								"{{SUPABASE_URL}}"
+							],
+							"path": [
+								"rest",
+								"v1",
+								"vehiculo"
+							],
+							"query": [
+								{
+									"key": "select",
+									"value": "*,modelo_vehiculo(*,marca_vehiculo(*)),tipo_vehiculo(*),sucursal(*)",
+									"description": "Incluir relaciones completas"
+								}
+							]
+						},
+						"description": "Obtener lista de vehículos con todas sus relaciones"
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar Vehículo por Patente",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "apikey",
+								"value": "{{SUPABASE_ANON_KEY}}",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{ACCESS_TOKEN}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{SUPABASE_URL}}/rest/v1/vehiculo?patente_vehiculo=eq.ABC123&select=*",
+							"host": [
+								"{{SUPABASE_URL}}"
+							],
+							"path": [
+								"rest",
+								"v1",
+								"vehiculo"
+							],
+							"query": [
+								{
+									"key": "patente_vehiculo",
+									"value": "eq.ABC123",
+									"description": "Filtrar por patente"
+								},
+								{
+									"key": "select",
+									"value": "*"
+								}
+							]
+						},
+						"description": "Buscar un vehículo específico por su patente"
+					},
+					"response": []
+				}
+			],
+			"description": "Endpoints para gestión de vehículos"
+		},
+		{
+			"name": "Supabase API - Órdenes de Trabajo",
+			"item": [
+				{
+					"name": "Listar Órdenes de Trabajo",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "apikey",
+								"value": "{{SUPABASE_ANON_KEY}}",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{ACCESS_TOKEN}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{SUPABASE_URL}}/rest/v1/orden_trabajo?select=*,empleado(*),vehiculo(*)&order=fecha_inicio_ot.desc",
+							"host": [
+								"{{SUPABASE_URL}}"
+							],
+							"path": [
+								"rest",
+								"v1",
+								"orden_trabajo"
+							],
+							"query": [
+								{
+									"key": "select",
+									"value": "*,empleado(*),vehiculo(*)"
+								},
+								{
+									"key": "order",
+									"value": "fecha_inicio_ot.desc"
+								}
+							]
+						},
+						"description": "Obtener lista de órdenes de trabajo ordenadas por fecha"
+					},
+					"response": []
+				},
+				{
+					"name": "Filtrar Órdenes por Estado",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "apikey",
+								"value": "{{SUPABASE_ANON_KEY}}",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{ACCESS_TOKEN}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{SUPABASE_URL}}/rest/v1/orden_trabajo?estado_ot=eq.en_curso&select=*",
+							"host": [
+								"{{SUPABASE_URL}}"
+							],
+							"path": [
+								"rest",
+								"v1",
+								"orden_trabajo"
+							],
+							"query": [
+								{
+									"key": "estado_ot",
+									"value": "eq.en_curso",
+									"description": "Filtrar por estado"
+								},
+								{
+									"key": "select",
+									"value": "*"
+								}
+							]
+						},
+						"description": "Filtrar órdenes de trabajo por estado (pendiente, en_curso, finalizada)"
+					},
+					"response": []
+				}
+			],
+			"description": "Endpoints para gestión de órdenes de trabajo"
+		},
+		{
+			"name": "Supabase API - Incidencias",
+			"item": [
+				{
+					"name": "Listar Incidencias",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "apikey",
+								"value": "{{SUPABASE_ANON_KEY}}",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{ACCESS_TOKEN}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{SUPABASE_URL}}/rest/v1/incidencia?select=*,orden_trabajo(*)&order=fecha_incidencia.desc",
+							"host": [
+								"{{SUPABASE_URL}}"
+							],
+							"path": [
+								"rest",
+								"v1",
+								"incidencia"
+							],
+							"query": [
+								{
+									"key": "select",
+									"value": "*,orden_trabajo(*)"
+								},
+								{
+									"key": "order",
+									"value": "fecha_incidencia.desc"
+								}
+							]
+						},
+						"description": "Obtener lista de incidencias ordenadas por fecha"
+					},
+					"response": []
+				},
+				{
+					"name": "Filtrar Incidencias por Gravedad",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "apikey",
+								"value": "{{SUPABASE_ANON_KEY}}",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{ACCESS_TOKEN}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{SUPABASE_URL}}/rest/v1/incidencia?gravedad_incidencia=eq.critica&select=*",
+							"host": [
+								"{{SUPABASE_URL}}"
+							],
+							"path": [
+								"rest",
+								"v1",
+								"incidencia"
+							],
+							"query": [
+								{
+									"key": "gravedad_incidencia",
+									"value": "eq.critica",
+									"description": "Filtrar por gravedad (baja, media, alta, critica)"
+								},
+								{
+									"key": "select",
+									"value": "*"
+								}
+							]
+						},
+						"description": "Filtrar incidencias por nivel de gravedad"
+					},
+					"response": []
+				}
+			],
+			"description": "Endpoints para gestión de incidencias"
+		},
+		{
+			"name": "Supabase API - Catálogos",
+			"item": [
+				{
+					"name": "Listar Cargos",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "apikey",
+								"value": "{{SUPABASE_ANON_KEY}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{SUPABASE_URL}}/rest/v1/cargo?select=*",
+							"host": [
+								"{{SUPABASE_URL}}"
+							],
+							"path": [
+								"rest",
+								"v1",
+								"cargo"
+							],
+							"query": [
+								{
+									"key": "select",
+									"value": "*"
+								}
+							]
+						},
+						"description": "Obtener lista de cargos disponibles"
+					},
+					"response": []
+				},
+				{
+					"name": "Listar Marcas de Vehículos",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "apikey",
+								"value": "{{SUPABASE_ANON_KEY}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{SUPABASE_URL}}/rest/v1/marca_vehiculo?select=*",
+							"host": [
+								"{{SUPABASE_URL}}"
+							],
+							"path": [
+								"rest",
+								"v1",
+								"marca_vehiculo"
+							],
+							"query": [
+								{
+									"key": "select",
+									"value": "*"
+								}
+							]
+						},
+						"description": "Obtener lista de marcas de vehículos"
+					},
+					"response": []
+				},
+				{
+					"name": "Listar Sucursales",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "apikey",
+								"value": "{{SUPABASE_ANON_KEY}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{SUPABASE_URL}}/rest/v1/sucursal?select=*",
+							"host": [
+								"{{SUPABASE_URL}}"
+							],
+							"path": [
+								"rest",
+								"v1",
+								"sucursal"
+							],
+							"query": [
+								{
+									"key": "select",
+									"value": "*"
+								}
+							]
+						},
+						"description": "Obtener lista de sucursales"
+					},
+					"response": []
+				}
+			],
+			"description": "Endpoints para catálogos y datos maestros"
+		}
+	],
+	"variable": [
+		{
+			"key": "SUPABASE_URL",
+			"value": "https://tu-proyecto.supabase.co",
+			"type": "string"
+		},
+		{
+			"key": "SUPABASE_ANON_KEY",
+			"value": "tu-anon-key-aqui",
+			"type": "string"
+		},
+		{
+			"key": "ACCESS_TOKEN",
+			"value": "",
+			"type": "string"
+		}
+	]
+}
+
+
+
+
+
+
+
+
+

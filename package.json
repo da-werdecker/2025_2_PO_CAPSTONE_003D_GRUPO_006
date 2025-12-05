@@ -1,5 +1,22 @@
 {
+  "name": "proyecto-apt",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run",
+    "test:coverage": "vitest run --coverage"
+  },
   "dependencies": {
     "qrcode.react": "^4.2.0"
+  },
+  "devDependencies": {
+    "vitest": "^4.0.10",
+    "@vitest/ui": "^4.0.10",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/user-event": "^14.6.1",
+    "jsdom": "^27.2.0"
   }
 }
